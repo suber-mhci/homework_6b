@@ -12,8 +12,9 @@ function addToCart() {
     localStorage.setItem('image' + addCount.toString(), productImage)
     localStorage.setItem('description' + addCount.toString(), productDescription)
     localStorage.setItem('price' + addCount.toString(), productPrice)
-    localStorage.setItem('count', addCount)
     addCount += 1 
+    console.log(addCount)
+    localStorage.setItem('count', addCount)
     //make update on the navigation bar
     let cartNav = document.getElementById('cartNav')
     cartNav.innerHTML = "Cart(" + addCount.toString() + ")"

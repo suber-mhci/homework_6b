@@ -23,7 +23,7 @@ function removeCartItem(event) {
     let btnClicked = event.target
     btnClicked.parentElement.parentElement.remove()
     localStorage.removeItem('item0')
-    var count = localStorage.getItem('count')
+    var count = parseInt(localStorage.getItem('count'))
     localStorage.setItem('count', count - 1)
     //update the total of cart 
     updateCartTotal()
@@ -46,7 +46,7 @@ function updateCartTotal() {
 }
 
 function addItemToCart(title, description, price, image) {
-    var count = localStorage.getItem('count')
+    var count = parseInt(localStorage.getItem('count'))
     let cartNav = document.getElementById('cartNav')
     cartNav.innerHTML = "Cart(" + count.toString() + ")"
     for (var i = 0; i < count; i++) {

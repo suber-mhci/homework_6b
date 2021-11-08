@@ -1,1 +1,15 @@
-README: Current Functionality: Navigation bar for Home and Products is all the currently works EXTRA: Your can click on any of the four images on the first row of the products page
+README: 
+
+Current Functionality: 
+
+- You are able to add things to the cart and remove them pressing the remove button 
+- 
+
+Potenial Bug: 
+- you could encounter an issue when adding different types of products to the cart. 
+- it could override what is currently in the cart
+
+
+
+
+

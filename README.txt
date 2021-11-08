@@ -1,0 +1,1 @@
+README: Current Functionality: Navigation bar for Home and Products is all the currently works EXTRA: Your can click on any of the four images on the first row of the products page

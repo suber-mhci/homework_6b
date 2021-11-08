@@ -1,0 +1,120 @@
+<!--
+    Joshua Suber 
+    November 7, 2021
+
+    Photos for the dogs where all used from USplash, a website that houses royalty-free photos
+    https://unsplash.com/
+
+    I also utilized a Youtube tutorial on local storage by the channel "Web Dev Simplified"
+    https://www.youtube.com/watch?v=YeFzkC2awTM
+-->
+
+
+<!DOCTYPE html>
+<html>
+    <head>
+        <!-- link to CSS -->
+        <link rel="stylesheet" href="styles.css">
+        <script src="main.js"></script>
+    </head>
+<body>
+    <!-- 
+        top navigation bar to move between pages
+    -->
+    <ul>
+        <a href="index.html">
+            <img id="logo" src="images/homePage/logo.png" alt="home deal image">
+        </a>
+        <li><a href="cart.html">Cart</a></li>
+        <li><a href="products.html">Products</a></li>
+        <li><a href="#contact">About</a></li>
+        <li><a class="active" href="#about">Home</a></li>
+    </ul>
+
+    <!-- 
+        bottom navigation bar that goes to product page filtered by category
+    -->
+    <ul class="item-nav">
+        <input type="text" placeholder="Find my gear...">
+        <li><a href="#home">All</a></li>
+        <li><a href="#news">Equipment</a></li>
+        <li><a href="#contact">Dogs</a></li>
+        <li><a href="#about">Cats</a></li>
+        
+    </ul>
+
+    <!-- 
+        home page deal image 
+    -->
+    <div class = "container">
+        <img id="homeImage" src="images/homePage/homePic.png" alt="home deal image">
+        <button class="btn">buy now</button>
+    </div>
+
+    <!-- 
+        top deals products 
+    -->
+    <div class="row">
+        <h1>Top Deals</h1>
+        <div class="column">
+            <a href="detail.html">
+            <img src="images/homePage/dogOne.png" alt="Snow" style="width:100%">
+        </a>
+            <h3>Dog Harness</h3>
+            <p>$19.99</p>
+        </div>
+        <div class="column">
+            <a href="detail2.html">
+          <img src="images/homePage/dogTwo.png" alt="Forest" style="width:100%">
+          </a>
+          <h3>Dog Harness</h3>
+            <p>$24.99</p>
+        </div>
+        <div class="column">
+            <a href="detail3.html">
+          <img src="images/homePage/catThree.png" alt="Mountains" style="width:100%">
+        </a>
+          <h3>Cat Harness</h3>
+            <p>$35.99</p>
+        </div>
+    </div>
+
+    <!-- 
+        new arrivals products 
+    -->
+    <div class="row">
+        <h1>New Arrivals</h1>
+        <div class="column">
+            <a href="detail.html">
+            <img src="images/homePage/dogOne.png" alt="Snow" style="width:100%">
+        </a>
+            <h3>Dog Harness</h3>
+            <p>$35.99</p>
+        </div>
+        <div class="column">
+            <a href="detail5.html">
+          <img src="images/homePage/dogThree.png" alt="Forest" style="width:100%">
+          </a>
+          <h3>Dog Harness</h3>
+            <p>$19.99</p>
+        </div>
+        <div class="column">
+            <a href="detail6.html">
+          <img src="images/homePage/dogFour.png" alt="Mountains" style="width:100%">
+          </a>
+          <h3>PS Tracking Collar</h3>
+            <p>$29.99</p>
+        </div>
+    </div>
+
+
+    <!-- 
+        sticky footer with address
+    -->
+    <div>
+        <footer>1234 Adventure Avenue, Pittsburgh, PA 56789</footer>
+    </div>
+    
+
+</body>
+</html>

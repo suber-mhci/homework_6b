@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <!-- link to CSS -->
+        <link rel="stylesheet" href="styles.css">
+        <script src="main.js" type="text/javascript"></script>
+    </head>
+<body>
+    <!-- 
+        top navigation bar to move between pages
+    -->
+    <ul>
+        <a href="index.html">
+            <img id="logo" src="images/homePage/logo.png" alt="home deal image">
+        </a>
+        <li><a id="cartNav" href="cart.html">Cart</a></li>
+        <li><a class="active" href="#news">Products</a></li>
+        <li><a href="#contact">About</a></li>
+        <li><a href="index.html">Home</a></li>
+    </ul>
+
+    <!-- 
+        bottom navigation bar that goes to product page filtered by category
+    -->
+    <ul class="item-nav">
+        <input type="text" placeholder="Find my gear...">
+        <li><a href="#home">All</a></li>
+        <li><a href="#news">Equipment</a></li>
+        <li><a href="#contact">Dogs</a></li>
+        <li><a href="#about">Cats</a></li>
+        
+    </ul>
+
+    <!-- 
+        product detail page for dog harness
+    -->
+    <div class="row">
+        <div class="detail-column">
+            <img id="detail-image" class="shop-item-image"src="images/homePage/dogThree.png" alt="Snow">
+            <a href="products.html"><button class="btn">go back</button></a>
+        </div>
+        <div class="detail-column">
+          <h2 id="productName"class="shop-item-title">Dog Harness</h2>
+          <h3 id="productPrice">$19.99</h3>
+          <p id="productDescription">Keep your dog safer and more comfortable on walks with this stylish Dog
+            Harness. This harness slips on and off easily and is fully adjustable 
+            for a comfortable fit.</p>
+
+          <h3>Color</h3>
+          <button onclick="selectColor(this)"id="strawberryBtn" class="colorBtn"></button>
+          <button onclick="selectColor(this)"id="blackberryBtn" class="colorBtn"></button>
+          <button onclick="selectColor(this)"id="crazyberryBtn"class="colorBtn"></button>
+          <button onclick="selectColor(this)"id="fireBtn"class="colorBtn"></button>
+
+          <br><br>
+          <button onclick="selectSize(this)" class="btn-size">tiny</button>
+          <button onclick="selectSize(this)" class="btn-size">small</button>
+          <button onclick="selectSize(this)" class="btn-size">medium</button>
+          <button onclick="selectSize(this)" class="btn-size">large</button>
+          
+          <br><br>  
+          <button onclick="addToCart()"class="btn">add to cart</button>
+        </div>
+      </div>
+
+
+    <!-- 
+        sticky footer with address
+    -->
+    <div>
+        <footer>1234 Adventure Avenue, Pittsburgh, PA 56789</footer>
+    </div>
+    
+
+</body>
+</html>

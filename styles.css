@@ -1,0 +1,222 @@
+/* style settting for whole page  */
+
+body, html {
+    margin: 0%;
+    font-family: Arial, Helvetica, sans-serif;
+}
+/* top navigation bar  */
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #573D38;
+  }
+  
+li {
+    float: right;
+    font-size: larger;
+  }
+  
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 20px 16px;
+    text-decoration: none;
+  }
+  
+  li a:hover:not(.active) {
+    background-color: #111;
+  }
+
+  ul a:hover:not(.active) {
+    background-color: #111;
+  }
+
+  .active {
+    background-color: #DCA557;
+  }
+  
+  
+
+  /* style for item/product category navigation board */
+  
+  .item-nav {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #714E47;
+  }
+
+  .item-nav li {
+    float: right;
+    font-size: large;
+    padding-right: 20px;
+    padding-left: 20px;
+  }
+
+  /* Style the search box inside the navigation bar */
+.item-nav input[type=text] {
+    float: right;
+    padding: 10px;
+    border: none;
+    margin-top: 8px;
+    margin-right: 16px;
+    font-size: 17px;
+    width: 400px;
+  }
+  
+/* website logo on navigation bar  */
+#logo {
+    width: 30%
+}
+
+/* home page image banner */
+  #homeImage {
+      width: 100%
+  }
+
+  /* Images Rows and Columns */
+  .column {
+    float: left;
+    width: 33.33%;
+    padding: 5px;
+    box-sizing: border-box;
+    background-color: white;
+    margin-bottom: 20px;
+  }
+
+  .product-column {
+    float: left;
+    width: 25%;
+    padding: 5px;
+    box-sizing: border-box;
+    background-color: white;
+    margin-bottom: 50px;
+  }
+
+  .detail-column {
+    float: left;
+    width: 47%;
+    padding: 20px;
+    background-color: white;
+    margin-bottom: 30px;
+  }
+
+  #detail-image {
+      width: 90%;
+  }
+
+  #cart-image {
+    width: 10%;
+}
+
+  .row {
+      margin-right: 50px;
+      margin-left: 50px;
+      margin-top: 10px;
+  }
+
+  /* Solid border */
+hr.solid {
+  border-top: 3px solid #bbb;
+}
+
+ 
+  /* Footer */
+
+  footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: #573D38;
+    color: white;
+    text-align: left;
+ }
+
+
+ /* Container needed to position the button. Adjust the width as needed */
+.container {
+    position: relative;
+  }
+  
+  /* Make the image responsive */
+  .container img {
+    width: 100%;
+  }
+  
+  /* Style the button and place it in the middle of the container/image */
+  .container .btn {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-500%, 250%);
+    -ms-transform: translate(-50%, -50%);
+    background-color: #573D38;
+    color: white;
+    font-size: 20px;
+    padding: 12px 30px;
+    border: none;
+    cursor: pointer;
+  }
+  
+  .container .btn:hover {
+    background-color: black;
+  }
+
+/* Product details page  */
+  .detail-column .btn {
+    background-color: #DCA557;
+    color: white;
+    font-size: 20px;
+    padding: 12px 30px;
+    border: none;
+    cursor: pointer;
+  }
+  
+  .detail-column .btn:hover {
+    background-color: black;
+  }
+
+  /* Product details page  */
+  .cartItems .row .column .btnRemove {
+    background-color: #DCA557;
+    color: white;
+    font-size: 20px;
+    padding: 12px 30px;
+    border: none;
+    cursor: pointer;
+  }
+  
+  .cartItems .row .column .btnRemove:hover {
+    background-color: black;
+  }
+
+  .colorBtn {
+      height: 30px;
+      width: 30px;
+      border-radius: 100px;
+      border: none;
+  }
+
+/* Product details page color buttons  */
+#strawberryBtn {
+    background-color: #E9829B;
+}
+
+#crazyberryBtn {
+    background-color: #A13F3F;
+}
+
+#blackberryBtn {
+    background-color: #430B3D;
+}
+
+#fireBtn {
+    background-color: #E9B466;
+}
+
+
